@@ -5,10 +5,32 @@
 }
 /* carrousel */
 .carrouselmenu{
-    color: rgb(252, 97, 41);
+    color: rgb(255, 68, 0);
     text-shadow: 1px 1px 2px black;
 }
 .carrouselimg{
     max-height: 600px;
     filter: opacity(90%);
+}
+/* horaires */
+.horairesimg{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    z-index: 1;
+    position: absolute;
+}
+.horairestxt{
+    z-index: 2;
+    color: rgb(255, 68, 0);
+    text-shadow: 1px 1px 2px black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+.droite{
+    text-align: right;
+}
+.centre{
+    text-align: center;
 }
