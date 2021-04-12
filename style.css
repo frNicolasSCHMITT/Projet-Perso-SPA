@@ -1,9 +1,9 @@
-/* navbar */
+/* --------------------------------- navbar */
 .navsushi{
     width: 50px;
     height: 50px;
 }
-/* carrousel */
+/* --------------------------- carrousel */
 .carrouselmenu{
     color: rgb(255, 68, 0);
     text-shadow: 1px 1px 2px black;
@@ -13,7 +13,10 @@
     max-height: 600px;
     filter: opacity(90%);
 }
-/* horaires */
+/* --------------------------- horaires */
+.horaires{
+    margin-bottom: 1%;
+}
 .horairesimg{
     width: 100%;
     height: auto;
@@ -41,4 +44,35 @@
 }
 .centre{
     text-align: center;
+}
+/* ---------------------------------------- contact */
+#contact{
+    margin-top: 1%;
+}
+.formulaire{
+    margin: 2%;
+}
+.valider{
+    color: rgb(255, 68, 0);
+    border: 1px solid rgb(255, 68, 0);
+}
+.valider:hover{
+    background-color: rgb(255, 68, 0);
+    color: white;
+}
+/* -------------------------------------------- carte */
+.gmap{
+    width: 100%;
+    height: auto;
+}
+/* ------------------------------------------- footer */
+footer{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 769px) {
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
