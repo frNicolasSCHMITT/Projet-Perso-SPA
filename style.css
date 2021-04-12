@@ -65,13 +65,13 @@
     width: 100%;
     height: auto;
 }
-/* ------------------------------------------- footer */
-footer{
+/* ------------------------------------------- contact + map */
+.contactmap{
     display: flex;
     flex-direction: row;
 }
 @media screen and (max-width: 769px) {
-    footer{
+    .contactmap{
         display: flex;
         flex-direction: row-reverse;
     }
