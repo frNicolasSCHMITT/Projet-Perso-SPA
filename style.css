@@ -60,19 +60,29 @@
     background-color: rgb(255, 68, 0);
     color: white;
 }
+.donnée{
+    text-align: center;
+    list-style-type: none;
+}
+.orange{
+    color: rgb(255, 68, 0);
+}
 /* -------------------------------------------- carte */
 .gmap{
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+#carte{
+    min-height: 375px;
 }
 /* ------------------------------------------- contact + map */
 .contactmap{
-    display: flex;
-    flex-direction: row;
+    margin-top: 5%;
 }
-@media screen and (max-width: 769px) {
-    .contactmap{
-        display: flex;
-        flex-direction: row-reverse;
-    }
+/* ---------------------------------------------- footer */
+footer{
+    background-color: rgb(24, 28, 32);
+    color: white;
+    text-align: center;
+    padding: 2%;
 }
