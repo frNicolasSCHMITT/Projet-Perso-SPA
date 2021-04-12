@@ -7,6 +7,7 @@
 .carrouselmenu{
     color: rgb(255, 68, 0);
     text-shadow: 1px 1px 2px black;
+    font-weight: bold;
 }
 .carrouselimg{
     max-height: 600px;
@@ -26,7 +27,14 @@
     text-shadow: 1px 1px 2px black;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
+    padding-top: 4%;
+    font-size: larger;
+    font-weight: bold;
+}
+@media screen and (max-width: 769px){
+    .horairestxt{
+        padding-top: 0;
+    }
 }
 .droite{
     text-align: right;
