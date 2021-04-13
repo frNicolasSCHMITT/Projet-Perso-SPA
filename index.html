@@ -131,7 +131,7 @@
             <!------------------- presentation restaurant ----------------------------->
             <div class="col-12 col-md-6 presresto">
                 <div class="row">
-                    <div class="col-12 prestxt">
+                    <div class="col-12 prestitre">
                         <h2>Notre restaurant</h2>
                     </div>
                     <div class="col-12 col-md-8 imgresto">
@@ -144,13 +144,21 @@
                             quis error soluta asperiores adipisci accusamus ab rerum suscipit.
                         </p>
                     </div>
+                    <div class="col-12 prestxt">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime atque molestiae 
+                            quis unde nemo vitae ipsum minima sed in illum cumque repellendus nostrum provident 
+                            error quo rerum veniam reiciendis culpa, veritatis accusamus corrupti assumenda 
+                            nihil? Alias odit expedita culpa veniam laboriosam beatae mollitia fugiat natus.
+                        </p>
+                    </div>
                 </div>
             </div>
             <!---------------------- presentation personnel ---------------------------->
             <div class="col-12 col-md-6 prespersonnel">
                 <div class="row">
                     <div class="row persobloc">
-                        <div class="col-10 persotxt">
+                        <div class="col-10 persotxt droite">
                             <b>Ryuunosuke-sama</b>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptates a 
@@ -173,7 +181,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row persobloc">
+                    <div class="row persobloc droite">
                         <div class="col-10 persotxt">
                             <b>Kozue-san</b>
                             <p>
@@ -214,7 +222,22 @@
                     <li class="donnée">2 Rue Emile Bravet, 01500 Ambérieu-en-Bugey</li>
                 </ul>
                 <h5 class="donnée orange">Besoin d'aide ?</h5>
-                <form action="./données_formulaire.html" method="POST">
+                <div class="input-group mb-3">
+                    <span class="input-group-text formulaire" id="basic-addon1">Nom</span>
+                    <input type="text" class="form-control" placeholder="Entrez votre nom" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text formulaire" id="basic-addon2">Mail</span>
+                    <input type="email" class="form-control" placeholder="Votre adresse mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+                  <div class="input-group">
+                    <span class="input-group-text formulaire">Message</span>
+                    <textarea class="form-control" placeholder="Saisissez votre message" aria-label="With textarea"></textarea>
+                  </div>
+                  <div class="bouton donnée">
+                    <button type="submit" class="btn btn-outline-danger valider">Envoyer le message</button>
+                </div>
+                <!-- <form action="./données_formulaire.html" method="POST">
                     <div class="formulaire donnée">
                         <label for="name">Nom :</label> <br>
                         <input type="text" placeholder="Entrez votre nom" id="name" name="user_name">
@@ -230,7 +253,7 @@
                     <div class="bouton formulaire donnée">
                         <button type="submit" class="btn btn-outline-danger valider">Envoyer le message</button>
                     </div>
-                </form>
+                </form> -->
                 <h5 class="donnée">Merci pour votre message !</h5>
             </div>
         </div>
