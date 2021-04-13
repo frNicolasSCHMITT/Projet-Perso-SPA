@@ -117,3 +117,25 @@ footer{
 #myBtn a:hover{
     color: white;
 }
+/* ---------------------------------------------------bloc presentations */
+.blocpres{
+    margin-top: 5%;
+}
+/* ----------------------------------------------presentation restaurant */
+.restoimg{
+    width: 100%;
+    height: auto;
+}
+.prestxt{
+    margin-top: 1%;
+}
+/* ----------------------------------------------presentation personnel */
+.imgperso{
+    width: 100%;
+    height: auto;
+    filter: grayscale(70%);
+    margin-top: 1%;
+}
+.persotxt{
+    margin-top: 1%;
+}
