@@ -6,6 +6,10 @@
 .bloctitre{
     padding: 0;
 }
+/* --------------------------------header */
+.entete{
+    margin-bottom: 2%;
+}
 /* --------------------------- carrousel */
 .filtre {
     background-color: rgba(0, 0, 0, 0.4);
@@ -17,8 +21,13 @@
     font-weight: bold;
 }
 .carrouselimg{
-    max-height: 600px;
     filter: opacity(90%);
+    height: auto;
+}
+@media screen and (min-width: 769px) {
+    .carrouselimg{
+        min-height: 380px;
+    }
 }
 
 /* --------------------------- horaires */
@@ -143,7 +152,11 @@ footer{
     background-color: rgb(255, 68, 0);
     color: white;
     text-align: center;
-
+}
+@media screen and (max-width: 769px) {
+    .prestxtside{
+        margin-bottom: 1%;
+    }
 }
 /* ----------------------------------------------presentation personnel */
 .persobloc{
