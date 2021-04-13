@@ -3,7 +3,14 @@
     width: 50px;
     height: 50px;
 }
+.bloctitre{
+    padding: 0;
+}
 /* --------------------------- carrousel */
+.filtre {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px
+}
 .carrouselmenu{
     color: rgb(255, 68, 0);
     text-shadow: 1px 1px 2px black;
@@ -13,22 +20,21 @@
     max-height: 600px;
     filter: opacity(90%);
 }
+
 /* --------------------------- horaires */
 .horaires{
     margin-top: 1%;
     margin-bottom: 1%;
 }
 .horairesimg{
-    width: 100%;
+    width: 50%;
     height: auto;
-    max-height: 300px;
     z-index: 1;
     position: absolute;
 }
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
     .horairesimg{
-        width: 82%;
-        margin-left: 9%;
+        width: 100%;
     }
 }
 .horairestxt{
@@ -37,7 +43,7 @@
     text-shadow: 1px 1px 2px black;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 4%;
+    padding-top: 13%;
     font-size: larger;
     font-weight: bold;
 }
@@ -126,16 +132,32 @@ footer{
     width: 100%;
     height: auto;
 }
+.imgresto{
+    padding: 0;
+}
 .prestxt{
-    margin-top: 1%;
+    background-color: rgb(255, 68, 0);
+    color: white;
+}
+.prestxtside{
+    background-color: rgb(255, 68, 0);
+    color: white;
+    text-align: center;
+
 }
 /* ----------------------------------------------presentation personnel */
+.persobloc{
+    margin-bottom: 1%;
+}
+.persoimg{
+    padding: 0;
+}
 .imgperso{
     width: 100%;
     height: auto;
     filter: grayscale(70%);
-    margin-top: 1%;
 }
 .persotxt{
-    margin-top: 1%;
+    border: 1px solid rgb(255, 68, 0);
+    color: rgb(255, 68, 0);
 }
