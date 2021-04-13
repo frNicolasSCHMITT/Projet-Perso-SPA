@@ -107,8 +107,8 @@
         </header>
         <!----------------------------------------- horaires ------------------------------------------------->
         <div class="col-12" id="horaires">
-            <img class="horairesimg" src="./images/chef-sushi.jpg" alt="chef-suchi">
             <div class="row">
+                <img class="horairesimg col-12" src="./images/chef-sushi.jpg" alt="chef-suchi">
                 <div class="col-6 horairestxt">
                     <h5>Du Lundi au Vendredi:</h5>
                     <p>11h - 15h et 19h - 22h <br> (fin de prise des commandes)</p>
@@ -123,9 +123,11 @@
             </div>
         </div>
         <div class="row flex-md-row-reverse contactmap">
+            <!------------------------------------ carte ------------------------------------------>
             <div class="col-12 col-md-6" id="carte">
                 <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.6919708369107!2d5.339537342095861!3d45.95496377394658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478b513ff230fa51%3A0xc647f91b106ce3df!2sOnlineformapro!5e0!3m2!1sfr!2sfr!4v1618230586207!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
+            <!--------------------------------------- contact ---------------------------------->
             <div class="col-12 col-md-6" id="contact">
                 <h5 class="donnée orange">Nos coordonnées:</h5>
                 <ul>
@@ -136,15 +138,15 @@
                 <h5 class="donnée orange">Besoin d'aide ?</h5>
                 <form action="./données_formulaire.html" method="POST">
                     <div class="formulaire donnée">
-                        <label for="name">Nom :</label>
+                        <label for="name">Nom :</label> <br>
                         <input type="text" placeholder="Entrez votre nom" id="name" name="user_name">
                     </div>
                     <div class="formulaire donnée">
-                        <label for="mail">E-mail :</label>
+                        <label for="mail">E-mail :</label> <br>
                         <input type="email"placeholder="Entrez votre mail" id="mail" name="user_mail">
                     </div>
                     <div class="formulaire donnée">
-                        <label for="msg">Message :</label>
+                        <label for="msg">Message :</label> <br>
                         <textarea name="user_message"placeholder="Saisissez votre message" id="msg" cols="30" rows="5"></textarea>
                     </div>
                     <div class="bouton formulaire donnée">
@@ -154,11 +156,12 @@
                 <h5 class="donnée">Merci pour votre message !</h5>
             </div>
         </div>
+        <!-------------------------------------------- footer -------------------------------->
             <footer id="mentions">
                 <h5>Mentions légales</h5>
                 <h6>Placeholder</h6>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nemo voluptatum doloribus 
-                    dicta. Expedita, ex laudantium? Quis illum recusandae iure accusantium quia fuga expedita, 
+                    dicta. Expedita, ex laudantium? <br> Quis illum recusandae iure accusantium quia fuga expedita, 
                     molestias eveniet mollitia doloribus, quibusdam at.
                 </p>
             </footer>
