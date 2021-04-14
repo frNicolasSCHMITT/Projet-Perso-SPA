@@ -121,7 +121,6 @@ footer{
     background-color: white; /* Set a background color */
     color: rgb(255, 68, 0); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
   }
@@ -130,6 +129,8 @@ footer{
 }
 #myBtn a{
     color: rgb(255, 68, 0);
+    padding: 10px; /* Some padding */
+
 }
 #myBtn a:hover{
     color: white;
@@ -146,22 +147,18 @@ footer{
 .imgresto{
     padding: 0;
 }
-.prestitre{
+.presresto{
     background-color: rgb(255, 68, 0);
     color: white;
 }
 .prestxt{
-    background-color: rgb(255, 68, 0);
-    color: white;
     text-align: center;
 }
 .prestxtside{
-    background-color: rgb(255, 68, 0);
-    color: white;
     text-align: center;
 }
 @media screen and (max-width: 769px) {
-    .prestxt{
+    .presresto{
         margin-bottom: 1%;
     }
 }
