@@ -66,6 +66,9 @@ nav{
 .centre{
     text-align: center;
 }
+.gauche{
+    text-align: left;
+}
 /* ---------------------------------------- contact */
 #contact{
     margin-top: 1%;
@@ -127,11 +130,10 @@ nav{
 #myBtn a:hover{
     color: white;
 }
-/* ---------------------------------------------------bloc presentations */
+/* ----------------------------------------------presentation restaurant */
 .blocpres{
     margin-top: 5%;
 }
-/* ----------------------------------------------presentation restaurant */
 .restoimg{
     width: 100%;
     height: auto;
@@ -154,6 +156,10 @@ nav{
 /* ----------------------------------------------presentation personnel */
 .persobloc{
     margin-bottom: 1%;
+    padding: 0;
+    border: 2px solid rgb(255, 68, 0);
+    display: flex;
+    align-items: center;
 }
 .persoimg{
     padding: 0;
@@ -164,7 +170,6 @@ nav{
     filter: grayscale(70%);
 }
 .persotxt{
-    border: 1px solid rgb(255, 68, 0);
     color: rgb(255, 68, 0);
 }
 .boutoninvert{
@@ -178,6 +183,9 @@ nav{
     background-color: white;
     color: rgb(255, 68, 0);
     border: 1px solid rgb(255, 68, 0);
+}
+h5{
+    color: rgb(255, 68, 0);
 }
 /* ---------------------------------------------- footer */
 footer{
