@@ -37,15 +37,14 @@ nav{
 }
 
 /* --------------------------- horaires */
-.horairesimg{
-    width: 50%;
-    height: auto;
-    z-index: 1;
-    position: absolute;
+.horairesbg{
+    background-image: url(./images/chef-sushi.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 @media screen and (max-width: 769px) {
-    .horairesimg{
-        width: 100%;
+    .horairesbg{
+        background-size: cover;
     }
 }
 .horairestxt{
